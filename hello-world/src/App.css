@@ -15,10 +15,28 @@
 }
 
 .App-intro {
-  font-size: large;
+  font-size: 23px;
 }
 
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
+}
+
+.todo-app{
+  padding-top: 23px;
+  display: inline-block;
+  text-align: left;
+}
+
+input{
+  font-size: 23px;
+}
+
+ul{
+  padding: 0;
+}
+
+li{
+  list-style-type: none;
 }
